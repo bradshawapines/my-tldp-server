@@ -22,7 +22,7 @@ const dataCleaner = {
 
   cleanEvent: (event) => {
     return {
-      id: event.Event_ID,
+      id: event.EVENT_ID,
       code: event.EVENT_CODE,
       title: event.TITLE,
       description: event.DESCRIPTION
